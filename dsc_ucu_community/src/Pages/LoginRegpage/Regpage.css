@@ -1,0 +1,58 @@
+.cover {
+    background-color: white;
+    width: 30em;
+    height: 30em;
+    min-height: 25em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    margin-top: -40px; 
+}
+
+input{
+    border: none;
+    background-color: rgb(229,226,226);
+    height: 3em;
+    width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: -1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.register-btn {
+    display: block;
+    width: 80%;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    transform: scale(1.25);
+    background-color: #303f9f;
+}
+ 
+.error-message {
+    margin-top: 1rem;
+    color: rgb(241, 116, 116);
+    font-size: -0.8em;
+    text-align: center;
+}
+  
