@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 WORKDIR /dsc_ucu_community/src
 COPY /dsc_ucu_community/ .
 RUN npm install
